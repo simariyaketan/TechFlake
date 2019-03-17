@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bind="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="original"
+            type="techflake.com.techflake.models.video.Original"></variable>
+    </data>
+    <RelativeLayout
+        android:id="@+id/layoutMailFavoriteVideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginRight="@dimen/dimen_5"
+        android:layout_marginTop="@dimen/dimen_5">
+
+        <ImageView
+            android:id="@+id/imgVideo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            bind:videoImage="@{original.url}"
+            android:scaleType="fitXY"/>
+    </RelativeLayout>
+</layout>

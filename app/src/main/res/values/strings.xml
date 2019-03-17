@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Tech Flake</string>
+    <string name="favorite_video">Favorite Video</string>
+    <string name="no_any_favorite">You do not have any favorite.</string>
+</resources>
